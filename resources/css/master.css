@@ -209,6 +209,7 @@ header .left{
   width: 28%;
   background-color: white;
   margin: 1rem 0;
+  box-shadow: 0 4px 6px 4px rgba(0,0,0,0.2);
 }
 
 #third #classes .course h3{
