@@ -185,6 +185,10 @@ header .left{
   margin-bottom: 1rem;
 }
 
+#second a{
+  color: blue;
+}
+
 /*Third Section*/
 #third{
   background-color: rgb(220, 220, 220);
