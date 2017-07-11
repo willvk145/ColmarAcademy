@@ -1,0 +1,288 @@
+html{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  color: rgba(70,70,70, 1);
+}
+
+#content{
+  max-width: 1400px;
+  margin: auto;
+}
+strong{
+  font-weight: 700;
+}
+
+.light{
+  color: rgba(75, 75, 75,0.5);
+}
+
+.flexrow{
+  display: flex;
+  flex-direction: row;
+  min-height: 0;
+}
+
+.flexcol{
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.big{
+  width: 60%;
+  margin: 32px 40px 32px 24px;
+}
+
+.small{
+  width: 423px;
+  margin: 32px 40px 32px 24px;
+}
+
+img, video{
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+p{
+  color: rgba(120, 120, 120,1);
+}
+h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  max-width: 100%;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  max-width: 100%;
+}
+
+
+/*div{
+  border: 1px solid green;
+}
+
+article{
+  border: 1px solid green;
+}
+
+section{
+  border: 1px solid green;
+}
+*/
+
+/*Header*/
+
+header, footer{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+header img{
+  display: inline-block;
+  height: 50px;
+  width: auto;
+}
+
+header div{
+  display: flex;
+  align-items: center;
+  margin: 0 24px;
+}
+ header div a{
+   padding: 24px 4px;
+   margin: 0 8px;
+   color: rgba(9, 9, 9, 0.95);
+   text-decoration: none;
+   background-color: rgba(255, 255, 255, 1);
+ }
+
+ header div a:first-child{
+   margin-left: 0;
+ }
+
+ header div a:last-child{
+   margin-right: 0;
+ }
+
+ header div a:hover{
+   background-color: rgb(200,200,200);
+ }
+
+header .left{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+/*Banner*/
+
+#banner{
+  background-color: rgb(200, 200, 200);
+  display: flex;
+}
+
+#banner .small{
+  align-items: center;
+  justify-content: center;
+}
+
+#banner .small a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  background-color: rgb(90, 90, 90);
+  padding: 8px 0;
+  margin: 1rem 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+}
+
+#banner .small a:hover{
+  background-color: rgb(130, 130, 130)
+}
+
+
+/*Second Section*/
+
+#second .big .image{
+  overflow: hidden;
+}
+
+#second .small .flexrow{
+  align-items: center;
+  margin: 16px 0;
+  overflow: hidden;
+  padding: 0.5rem;
+}
+
+#second .small .flexrow:hover{
+  background-color: rgb(200, 200, 200);
+}
+
+#second .small .content{
+  margin-bottom: 1rem;
+}
+
+#second .small .image{
+  width: 35%;
+  min-width: 35%;
+  margin-right: 16px;
+}
+
+#second p{
+  margin-bottom: 1rem;
+}
+
+/*Third Section*/
+#third{
+  background-color: rgb(220, 220, 220);
+}
+
+#third h1{
+  text-align: center;
+  padding: 32px 0;
+}
+
+#third #classes{
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#third #classes .course{
+  width: 28%;
+  background-color: white;
+  margin: 1rem 0;
+}
+
+#third #classes .course h3{
+  margin: 48px 16px 16px 16px;
+}
+
+#third #classes .course p{
+  margin: 8px 16px;
+}
+
+#third #classes .course p:last-child{
+  margin-bottom: 24px;
+}
+
+/*Thesis Section*/
+#thesis .mainhead{
+  text-align: center;
+  margin: 32px 0;
+}
+
+#thesis .big .image{
+  overflow: hidden;
+}
+
+#thesis .small .flexrow{
+  align-items: center;
+  margin: 16px 0;
+  overflow: hidden;
+  padding: 0.5rem;
+}
+
+#thesis .small .flexrow:hover{
+  background-color: rgb(200, 200, 200);
+}
+
+#thesis .small .content{
+  margin-bottom: 1rem;
+}
+
+#thesis .small .image{
+  width: 35%;
+  min-width: 35%;
+  margin-right: 16px;
+}
+
+#thesis p{
+  margin-bottom: 1rem;
+}
+
+/*footer*/
+
+footer{
+  font-size: .8rem;
+  padding: 2rem 0;
+  border-top: 1px solid rgb(200, 200, 200);
+}
+
+footer div{
+  display: flex;
+  align-items: center;
+  margin: 0 24px;
+}
+ footer div a{
+   padding: 24px 4px;
+   margin: 0 8px;
+   color: rgba(9, 9, 9, 0.95);
+   text-decoration: none;
+   background-color: rgba(255, 255, 255, 1);
+ }
+
+ footer div a:first-child{
+   margin-left: 0;
+ }
+
+ footer div a:last-child{
+   margin-right: 0;
+ }
+
+ footer div a:hover{
+   background-color: rgb(200,200,200);
+ }
