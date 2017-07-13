@@ -17,14 +17,20 @@
       <header>
         <div class="left">
           <img src="./resources//images/ic-logo.svg" alt="Colmar Adademy Logo">
-          <strong>Colmar</strong><span class="light">Academy</span>
+          <span class="desktop"><strong>Colmar</strong><span class="light">Academy</span></span>
         </div>
 
-        <div class="right">
+        <div class="right desktop">
           <a href="#campus">On Campus</a>
           <a href="#online">Online</a>
           <a href="#companies">For Companies</a>
           <a href="#signin">Sign In</a>
+        </div>
+
+        <div class="right mobile">
+          <a href="#campus"><img src="./resources/images/ic-on-campus.svg" alt=""></a>
+          <a href="#online"><img src="./resources/images/ic-online.svg" alt=""></a>
+          <a href="#signin"><img src="./resources/images/ic-login.svg" alt=""></a>
         </div>
       </header>
 
@@ -42,7 +48,7 @@
 
       <!--First info section-->
       <section class="flexrow" id="second">
-        <article class="flexcol big">
+        <article class="flexcol big desktop">
           <div class="image">
             <img src="./resources/images/information-main.jpg" alt="Information">
           </div>
@@ -61,7 +67,9 @@
           <div class="flexrow">
             <div class="image">
               <img src="./resources/images/information-orientation.jpg"
-              alt="Orientation">
+              alt="Orientation" class="desktop">
+              <img src="./resources/images/information-orientation-mobile.jpg"
+              alt="Orientation" class="mobile">
             </div>
             <div class="content">
               <h3>Orientation date</h3>
@@ -73,7 +81,9 @@
           <div class="flexrow">
             <div class="image">
               <img src="./resources/images/information-campus.jpg"
-              alt="Orientation">
+              alt="Orientation" class="desktop">
+              <img src="./resources/images/information-campus-mobile.jpg"
+              alt="Orientation" class="mobile">
             </div>
             <div class="content">
               <h3>Our Campus</h3>
@@ -85,7 +95,9 @@
           <div class="flexrow">
             <div class="image">
               <img src="./resources/images/information-guest-lecture.jpg"
-              alt="Orientation">
+              alt="Orientation" class="desktop">
+              <img src="./resources/images/information-guest-lecture-mobile.jpg"
+              alt="Orientation" class="mobile">
             </div>
             <div class="content">
               <h3>Our Guest Lecture</h3>
@@ -104,51 +116,63 @@
         <div class="flexrow" id="classes">
           <div class="course">
             <img src="./resources/images/course-software.jpg"
-            alt="Software Course">
+            alt="Software Course" class="desktop">
             <h3>Software Engineering</h3>
-            <p>COURSES</p>
-            <p>Web Development, Mobile Development, iOT, APIs</p>
+            <div class="desktop">
+              <p>COURSES</p>
+              <p>Web Development, Mobile Development, iOT, APIs</p>
+            </div>
           </div>
 
           <div class="course">
             <img src="./resources/images/course-computer-art.jpg"
-            alt="Computer">
+            alt="Computer" class="desktop">
             <h3>Computer Art</h3>
-            <p>COURSES</p>
-            <p>Imaging & Design, Web Design, Motion Graphics & Visual
-             Effects, Computer Animation</p>
+            <div class="desktop">
+              <p>COURSES</p>
+              <p>Imaging & Design, Web Design, Motion Graphics & Visual
+               Effects, Computer Animation</p>
+            </div>
           </div>
 
           <div class="course">
             <img src="./resources/images/course-design.jpg"
-            alt="Design Course">
+            alt="Design Course" class="desktop">
             <h3>Design</h3>
-            <p>COURSES</p>
-            <p>User Experience Design, User Research, Visual Design</p>
+            <div class="desktop">
+              <p>COURSES</p>
+              <p>User Experience Design, User Research, Visual Design</p>
+            </div>
           </div>
 
           <div class="course">
             <img src="./resources/images/course-data.jpg"
-            alt="Data Course">
+            alt="Data Course" class="desktop">
             <h3>Data</h3>
-            <p>COURSES</p>
-            <p>Data Science, Big Data, SQL, Data Visualization</p>
+            <div class="desktop">
+              <p>COURSES</p>
+              <p>Data Science, Big Data, SQL, Data Visualization</p>
+            </div>
           </div>
 
           <div class="course">
             <img src="./resources/images/course-business.jpg"
-            alt="Software Course">
+            alt="Software Course" class="desktop">
             <h3>Business</h3>
-            <p>COURSES</p>
-            <p>Product Development, Business Development, Startup</p>
+            <div class="desktop">
+              <p>COURSES</p>
+              <p>Product Development, Business Development, Startup</p>
+            </div>
           </div>
 
           <div class="course">
             <img src="./resources/images/course-marketing.jpg"
-            alt="Software Course">
+            alt="Software Course" class="desktop">
             <h3>Marketing</h3>
-            <p>COURSES</p>
-            <p>Analytics, Content Marketing, Mobile Marketing</p>
+            <div class="desktop">
+              <p>COURSES</p>
+              <p>Analytics, Content Marketing, Mobile Marketing</p>
+            </div>
           </div>
         </div>
       </section>
@@ -166,15 +190,16 @@
               </video>
             </div>
 
-            <h1>Reimagine Urban</h1>
-
-            <p>Our building design brings architecture into the modern age.
-                With sleek looks and a focus on energy conservation,
-                 our structures are able to look good while helping
-                 conserve resources.</p>
+            <div class="desktop">
+              <h1>Reimagine Urban</h1>
+              <p>Our building design brings architecture into the modern age.
+                  With sleek looks and a focus on energy conservation,
+                   our structures are able to look good while helping
+                   conserve resources.</p>
+            </div>
           </article>
 
-          <article class="flexcol small">
+          <article class="flexcol small desktop">
             <div class="flexrow">
               <div class="image">
                 <img src="./resources/images/thesis-fisma.jpg"
@@ -206,7 +231,7 @@
           &copy; 2016 Colmar Academy.  All rights reserved
         </div>
 
-        <div class="right">
+        <div class="right desktop">
           <a href="#trerms">Terms</a>
           <a href="#privacy">Privacy</a>
         </div>

@@ -79,12 +79,13 @@ section{
 
 /*Header*/
 
-header, footer{
+header{
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  height: 68px;
 }
 
 header img{
@@ -262,6 +263,11 @@ header .left{
 /*footer*/
 
 footer{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
   font-size: .8rem;
   padding: 2rem 0;
   border-top: 1px solid rgb(200, 200, 200);
@@ -290,4 +296,99 @@ footer div{
 
  footer div a:hover{
    background-color: rgb(200,200,200);
+ }
+
+ /*Mobile Support*/
+
+ .mobile{
+   display: none;
+ }
+
+ @media only screen and (max-width: 850px){
+   .desktop{
+     display: none;
+   }
+
+   .mobile{
+     display: inherit;
+   }
+
+   h1{
+     font-size: 2rem;
+   }
+
+   h3{
+     font-size: 1.2rem;
+   }
+
+   div{
+     overflow: hidden;
+   }
+
+   #banner{
+     flex-direction: column;
+   }
+
+   #banner .big{
+     width: 100%;
+     margin: 0;
+     padding: 0;
+   }
+
+   #banner .small{
+     width: 90%;
+     margin:auto;
+   }
+
+   #second .small{
+     width: 100%;
+     margin: 32px 0;
+   }
+
+   #second .small .flexrow{
+     flex-direction: column;
+     align-items: left;
+     margin: 0;
+     width: 100%;
+     padding: 0.5rem 0;
+   }
+
+   #second .small .flexrow .image{
+     width: 90%;
+     margin: auto;
+   }
+
+   #second .small .flexrow .image img{
+     width: 100%;
+   }
+
+   #second .small .content{
+     margin: 0 5% 5% 5%;
+     width: 90%;
+   }
+
+  #third{
+    background-color: white;
+    margin-bottom: 64px;
+  }
+
+   #third #classes{
+     flex-direction: column;
+     width: 90%;
+   }
+
+   #third #classes .course{
+     background-color: rgb(220, 220, 220);
+     width: 100%;
+     margin: 8px auto;
+     box-shadow: 0 0 0 0;
+   }
+
+   #third #classes .course h3{
+     margin: 1.5rem;
+   }
+
+   #thesis .big{
+     width: 100%;
+   }
  }
